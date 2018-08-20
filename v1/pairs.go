@@ -30,6 +30,7 @@ type Pair struct {
 	MaximumOrderSize float64 `json:"maximum_order_size,string"`
 	MinimumOrderSize float64 `json:"minimum_order_size,string"`
 	Espiration       string
+	Margin           bool
 }
 
 // Return a list of detailed pairs
